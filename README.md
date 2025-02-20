@@ -1,5 +1,8 @@
 # OPC UA Data Logging and Visualization for Pfeiffer HiCube 80 Neo
 
+This repository contains a python script for measuring vacuum chamber pressures using a Pfeiffer Vacuum PKR 361 pressure gauge (P\N PT T03 350 010). The gauge is connected to a Pfeiffer Vacuum HiCube 80 Neo pump stand (P\N PM Q102 003 00), which accurately displays the measured pressure values.
+The HiCube 80 Neo is connected to the network via Ethernet, allowing remote access to the pressure data. The IP address of the HiCube 80 Neo can be found in its settings. The script communicates with the OPC UA server running on the HiCube 80 Neo to continuously log pressure measurements for further analysis.
+
 This repository contains three key files:
 1. **`measure_pressure.py`** - A Python script that connects to an OPC UA server, retrieves pressure data from the Pfeiffer HiCube 80 Neo, and logs it to a text file in real time.
 2. **Sample Data (`pressure_log.txt`)** - Pre-generated sample data representing recorded pressure values over time.
