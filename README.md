@@ -20,7 +20,6 @@ This repository contains three key files:
 
 - Python 3.x
 - opcua library
-- matplotlib and pandas (for the notebook)
 
 ## Install Dependencies
 
